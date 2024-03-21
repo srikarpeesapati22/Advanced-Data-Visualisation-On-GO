@@ -1,0 +1,16 @@
+/* Styles for the main container of the dashboard */
+.dashboard {
+    justify-content: space-between; /* Distribute items evenly with space between them */
+    display: flex; /* Display items as a flex container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 20px; /* Add padding around the dashboard */
+    overflow: scroll; /* Enable scrolling for overflowed content */
+}
+
+/* Styles for individual graph containers */
+.graph-container {
+    background-color: white; /* Set background color to white */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add box shadow for a subtle effect */
+    padding: 20px; /* Add padding inside the graph container */
+}

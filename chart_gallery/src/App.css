@@ -1,0 +1,71 @@
+/* Styles for the main container of the application */
+.App {
+    text-align: center; /* Center aligns the content */
+}
+
+/* Styles for the container of buttons */
+.button-container {
+    display: flex; /* Display buttons in a flex container */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: center; /* Center align buttons horizontally */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    border-bottom: 1px solid gray; /* Add a bottom border */
+}
+
+/* Styles for individual buttons */
+.button-container > button {
+    border: none; /* Remove button border */
+    background: white; /* Set button background to white */
+    padding: 15px 20px; /* Add padding */
+    margin: 5px; /* Add margin around buttons */
+    flex: 1; /* Make buttons flexible to occupy available space */
+}
+
+/* Highlight the currently selected button */
+.button-container > button.active {
+    background-color: #007bff; /* Set background color to responsive blue */
+    color: #fff; /* Set text color to white */
+}
+
+
+
+/* Styles for the wrapper of graphs */
+.graph-wrapper {
+    display: inline-block; /* Display graph wrapper as inline-block */
+}
+
+/* Styles for the container of graphs */
+.graph-container {
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    margin: 10px; /* Add margin around the container */
+    overflow: hidden; /* Hide overflowing content */
+    width: 100%; /* Set container width to 100% */
+}
+
+/* Styles for tooltips */
+.tooltip {
+    position: absolute; /* Position tooltips absolutely */
+    background-color: rgba(0, 0, 0, 0.8); /* Set background color with opacity */
+    color: white; /* Set text color */
+    padding: 5px; /* Add padding */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    pointer-events: none; /* Disable pointer events */
+}
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
